@@ -16,7 +16,7 @@ import dash_bio_utils.xyz_reader as xyz_reader
 #external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__,external_stylesheets=[dbc.themes.LUX])
-
+server = app.server
 ## global state ##
 
 def load_model():
